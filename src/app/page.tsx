@@ -22,7 +22,6 @@ export default function Home() {
         placeholder="blur"
         sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw"
       />  
-      <div className="absolute inset-0 bg-gradient-to-r from-black from-2%" />
       <div className="dark-overlay">
         <div className="image-container flex flex-col">
           <div className="flex-row">
