@@ -9,6 +9,7 @@ export default function Home() {
         layout="fill"
         objectFit="cover"
         quality={100}
+        placeholder="blur"
       />  
       <div className="dark-overlay">
         <div className="image-container flex flex-col">
