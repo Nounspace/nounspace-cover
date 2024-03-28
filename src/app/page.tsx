@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Image
-        src="/nounspace.png"
-        alt="Nounspace Mockup"
+        src="/BG.jpeg"
+        alt="The Onchain Modular Universe"
         layout="fill"
         objectFit="cover"
         quality={100}

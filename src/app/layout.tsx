@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Nounspace",
-  description: "A new way to cast",
+  description: "The Onchain Modular Universe",
 };
 
 export default function RootLayout({
