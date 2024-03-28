@@ -26,6 +26,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+img {
+  transition: 0.3s;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -50,3 +54,4 @@ body {
 .name{
   margin-top:30vh;
 }
+

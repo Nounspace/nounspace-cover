@@ -1,15 +1,18 @@
 import Image from "next/image";
+import NextImage from 'next/image'
+
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Image
+      <NextImage
+        priority
         src="/BG.jpeg"
         alt="The Onchain Modular Universe"
         layout="fill"
         objectFit="cover"
-        quality={100}
         placeholder="blur"
+        sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw"
       />  
       <div className="dark-overlay">
         <div className="image-container flex flex-col">
