@@ -15,35 +15,24 @@ export default function Home() {
 
       <NextImage
         priority
-        src="/BG.jpeg"
+        src="/NounspaceDesktop.png"
         alt="The Onchain Modular Universe"
         layout="fill"
         objectFit="cover"
         placeholder="blur"
+        className="image"
         sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw"
       />  
-      <div className="dark-overlay">
-        <div className="image-container flex flex-col">
-          <div className="flex-row">
-            <Image
-              className="name"
-              src="/name.png"
-              alt="Nounspace"
-              objectFit="cover"
-              quality={100}
-            />  
-          </div>
-          <div className="flex-row">
-            <a href="https://github.com/Nounspace">
-              <Image
-                src="/GithubLogo.webp"
-                alt="Github"
-                width="100"
-              /> 
-            </a>
-          </div>
-        </div>
-      </div>
+      <NextImage
+        priority
+        src="/NounspaceMobile.png"
+        alt="The Onchain Modular Universe"
+        layout="fill"
+        objectFit="cover"
+        placeholder="blur"
+        className="image2"
+        sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw"
+      /> 
     </main>
 
   );

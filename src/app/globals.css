@@ -36,6 +36,15 @@ img {
   }
 }
 
+@media (width<= 1439px) {
+   .image {
+       display: none
+   }
+   .image2 {
+       
+   }
+}
+
 .dark-overlay {
   background-color: rgba(0, 0, 0, 0.35);
   position: absolute;
