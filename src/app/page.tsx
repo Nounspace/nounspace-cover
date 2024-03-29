@@ -7,11 +7,11 @@ export default function Home() {
         <div className="image-container flex flex-col">
           <div className="flex-row ml-10 mr-10">
             <Image
+              priority
               className="name"
-              src="/NAME.PNG"
+              src="/name.png"
               alt="Nounspace"
               objectFit="cover"
-              quality={100}
             />  
           </div>
           <div className="flex-row mt-20">
