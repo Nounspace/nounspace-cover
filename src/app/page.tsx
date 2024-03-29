@@ -1,38 +1,30 @@
-'use client'
-
 import Image from "next/image";
-import NextImage from 'next/image'
-
-var heroHasLoaded=false;
-
-const doFadeIn = () => {
-  heroHasLoaded=true;
-};
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
-      <NextImage
-        priority
-        src="/NounspaceDesktop.png"
-        alt="The Onchain Modular Universe"
-        layout="fill"
-        objectFit="cover"
-        placeholder="blur"
-        className="image"
-        sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw"
-      />  
-      <NextImage
-        priority
-        src="/NounspaceMobile.png"
-        alt="The Onchain Modular Universe"
-        layout="fill"
-        objectFit="cover"
-        placeholder="blur"
-        className="image2"
-        sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw"
-      /> 
+      <div className="dark-overlay">
+        <div className="image-container flex flex-col">
+          <div className="flex-row ml-10 mr-10">
+            <Image
+              className="name"
+              src="/NAME.PNG"
+              alt="Nounspace"
+              objectFit="cover"
+              quality={100}
+            />  
+          </div>
+          <div className="flex-row mt-20">
+            <a href="https://github.com/Nounspace">
+              <Image
+                src="/GithubLogo.webp"
+                alt="Github"
+                width="80"
+              /> 
+            </a>
+          </div>
+        </div>
+      </div>
     </main>
 
   );
