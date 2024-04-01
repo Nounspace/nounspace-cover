@@ -44,6 +44,20 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="callout">
+          <a href="nouns.wtf">
+            <div className="m-10 text-right">
+              Inspired & <br/>
+              funded by <br/>
+              <Image
+                className="nlogo"
+                alt="nlogo"
+                src="/nlogo.svg"
+                objectFit="cover"
+              />
+            </div>
+          </a>
+        </div>
       </div>
     </main>
 

@@ -40,6 +40,20 @@ img {
   display:none;
 }
 
+.nlogo{
+  height:1.4em;
+  width:auto;
+  float:right;
+}
+
+.callout {
+  font-size:0.7em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
 @media (width<= 1439px) {
    .image {
        display: none
