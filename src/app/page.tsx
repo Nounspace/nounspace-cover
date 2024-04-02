@@ -45,7 +45,7 @@ export default function Home() {
           </div>
         </div>
         <div className="callout">
-          <a href="nouns.wtf">
+          <a href="https://nouns.wtf">
             <div className="m-10 text-right">
               Inspired & <br/>
               funded by <br/>
