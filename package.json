@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "@plaiceholder/next": "^3.0.0",
-    "next": "14.1.4",
+    "buffer": "^6.0.3",
+    "next": "^14.2.3",
     "react": "^18",
     "react-dom": "^18"
   },
