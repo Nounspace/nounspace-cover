@@ -1,11 +1,8 @@
-import Head from 'next/head';
+import "https://mint.highlight.xyz/assets/embed.css"
 
 const NOGs = () => {
   return (
     <>
-      <Head>
-        <link rel="stylesheet" href="https://mint.highlight.xyz/assets/embed.css" />
-      </Head>
       <div data-widget="highlight-mint-page" data-mint-collection-id="663d1b360cdee3e13ac85c8d"></div>
       <script type="module" crossOrigin="" src="https://mint.highlight.xyz/assets/embed.js?v=1" async></script>
     </>
