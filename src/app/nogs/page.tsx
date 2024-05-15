@@ -1,6 +1,9 @@
-"use client"; 
+"use client"
+import Script from "next/script";
 
 const NOGs = () => {
+  global.Buffer = Buffer;
+
   return (
     <>
       <link rel="stylesheet" href="https://mint.highlight.xyz/assets/embed.css" />
