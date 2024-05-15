@@ -1,7 +1,10 @@
 "use client"; 
 import Image from "next/image";
+import Script from "next/script";
 
 export default function Home() {
+  global.Buffer = Buffer;
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <div className="dark-overlay">
