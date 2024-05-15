@@ -5,13 +5,15 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="dark-overlay">
         <div className="image-container flex flex-col">
-          <div className="flex-col ml-10 mr-10">
+          <div className="flex-col ml-10 mr-10 size-11/12">
             <Image
               priority
               className="name"
               src="/name.png"
               alt="Nounspace"
               objectFit="cover"
+              width={2914}
+              height={721}
             />  
           </div>
           <div className="flex mt-20">
@@ -20,6 +22,7 @@ export default function Home() {
                 <Image
                   src="/GithubLogo.webp"
                   alt="Github"
+                  height="80"
                   width="80"
                 /> 
               </a>
@@ -29,6 +32,7 @@ export default function Home() {
                 <Image
                   src="/farcaster.png"
                   alt="Warpcast Channel"
+                  height="80"
                   width="80"
                 /> 
               </a>
@@ -38,6 +42,7 @@ export default function Home() {
                 <Image
                   src="/prophouse.png"
                   alt="Prophouse Proposal"
+                  height="80"
                   width="80"
                 /> 
               </a>
@@ -54,6 +59,8 @@ export default function Home() {
                 alt="nlogo"
                 src="/nlogo.svg"
                 objectFit="cover"
+                height="40"
+                width="40"
               />
             </div>
           </a>
