@@ -9,10 +9,10 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between">
       <div className="dark-overlay">
         <div className="image-container flex flex-col md:flex-row lg:flex-row">
-          <div className="flex flex-col md:size-7/12 lg:size-7/12 size-11/12 p-4 md:p-24">
+          <div className="flex md:basis-2/4 flex-col md:size-6/12 lg:size-6/12 size-11/12 p-4">
             <Image
               priority
-              className="name"
+              className="name m-auto"
               src="/name.png"
               alt="Nounspace"
               objectFit="cover"
@@ -55,9 +55,9 @@ export default function Home() {
             </div>
           </div>
           </div>
-          <div className="flex p-4 md:m-10 size-11/12">
+          <div className="flex md:basis-1/4 p-4 md:m-10 size-11/12">
             <link rel="stylesheet" href="https://mint.highlight.xyz/assets/embed.css" />
-            <div data-widget="highlight-mint-card" data-mint-collection-id="663d2717dffb7b3a490f398f" data-theme='{"bgColor":"#000000","textColor":"#ffffff","accentColor":"#9d00ff"}' ></div>
+            <div data-widget="highlight-mint-card" data-mint-collection-id="663d2717dffb7b3a490f398f" data-theme='{"bgColor":"#000000","textColor":"#ffffff","accentColor":"#9d00ff"}'className="m-auto" ></div>
             <script async={true} type="module" crossOrigin="" src="https://mint.highlight.xyz/assets/embed.js?v=1"></script>
           </div>
         </div>
