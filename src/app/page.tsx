@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <div className="dark-overlay">
-        <div className="image-container flex flex-row">
-          <div className="flex-col size-7/12 p-24">
+        <div className="image-container flex flex-col md:flex-row lg:flex-row">
+          <div className="flex flex-col md:size-7/12 lg:size-7/12 size-11/12 p-4 md:p-24">
             <Image
               priority
               className="name"
@@ -16,7 +16,7 @@ export default function Home() {
               width={1457}
               height={360}
             />  
-            <div className="flex mt-20">
+            <div className="flex md:mt-20">
               <div className="flex-1 m-10">
                 <a href="https://github.com/Nounspace">
                   <Image
@@ -52,7 +52,7 @@ export default function Home() {
             </div>
           </div>
           </div>
-          <div className="flex-col ml-10 mr-10">
+          <div className="flex p-4 md:m-10 size-11/12">
             <link rel="stylesheet" href="https://mint.highlight.xyz/assets/embed.css" />
             <div data-widget="highlight-mint-card" data-mint-collection-id="663d2717dffb7b3a490f398f" data-theme='{"bgColor":"#000000","textColor":"#ffffff","accentColor":"#9d00ff"}' ></div>
             <script async={true} type="module" crossOrigin="" src="https://mint.highlight.xyz/assets/embed.js?v=1"></script>
