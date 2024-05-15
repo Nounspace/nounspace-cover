@@ -57,8 +57,8 @@ export default function Home() {
           </div>
           <div className="flex md:basis-1/4 p-4 md:m-10 size-11/12">
             <link rel="stylesheet" href="https://mint.highlight.xyz/assets/embed.css" />
-            <div data-widget="highlight-mint-card" data-mint-collection-id="663d2717dffb7b3a490f398f" data-theme='{"bgColor":"#000000","textColor":"#ffffff","accentColor":"#9d00ff"}'className="m-auto" ></div>
-            <script async={true} type="module" crossOrigin="" src="https://mint.highlight.xyz/assets/embed.js?v=1"></script>
+            <div data-widget="highlight-mint-card" data-mint-collection-id="663d2717dffb7b3a490f398f" data-theme='{"bgColor":"#000000","textColor":"#ffffff","accentColor":"#9d00ff"}' ></div>
+            <Script type="module" crossOrigin="" src="https://mint.highlight.xyz/assets/embed.js?v=1"/>
           </div>
         </div>
         <div className="callout">
