@@ -11,7 +11,11 @@ export default function Home() {
               className="name"
               src="/name.png"
               alt="Nounspace"
-              objectFit="cover"
+              width={0}
+              height={0}
+              sizes="100vw"
+              objectFit="contain"
+              style={{position: "relative", width: "100%"}}
             />  
           </div>
           <div className="flex mt-20">
@@ -21,6 +25,7 @@ export default function Home() {
                   src="/GithubLogo.webp"
                   alt="Github"
                   width="80"
+                  height="80"
                 /> 
               </a>
             </div>
@@ -30,6 +35,7 @@ export default function Home() {
                   src="/farcaster.png"
                   alt="Warpcast Channel"
                   width="80"
+                  height="80"
                 /> 
               </a>
             </div>
@@ -39,6 +45,7 @@ export default function Home() {
                   src="/prophouse.png"
                   alt="Prophouse Proposal"
                   width="80"
+                  height="80"
                 /> 
               </a>
             </div>
@@ -54,6 +61,8 @@ export default function Home() {
                 alt="nlogo"
                 src="/nlogo.svg"
                 objectFit="cover"
+                width="80"
+                height="80"
               />
             </div>
           </a>
