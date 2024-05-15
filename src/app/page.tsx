@@ -1,7 +1,10 @@
 "use client"; 
 import Image from "next/image";
+import Script from "next/script";
 
 export default function Home() {
+  global.Buffer = Buffer;
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <div className="dark-overlay">
@@ -55,7 +58,7 @@ export default function Home() {
           <div className="flex-col ml-10 mr-10">
             <link rel="stylesheet" href="https://mint.highlight.xyz/assets/embed.css" />
             <div data-widget="highlight-mint-card" data-mint-collection-id="663d2717dffb7b3a490f398f" data-theme='{"bgColor":"#000000","textColor":"#ffffff","accentColor":"#9d00ff"}' ></div>
-            <script async={true} type="module" crossOrigin="" src="https://mint.highlight.xyz/assets/embed.js?v=1"></script>
+            <Script type="module" crossOrigin="" src="https://mint.highlight.xyz/assets/embed.js?v=1"/>
           </div>
         </div>
         <div className="callout">
